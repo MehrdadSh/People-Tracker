@@ -1,0 +1,15 @@
+<!-- templates/base.html -->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>{%block title%} People Tracker{% endblock %} </title>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>
